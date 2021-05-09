@@ -25,7 +25,6 @@ allrows=[]
 for each in res["Similar"]["Results"]:
     movies=" "
     musics=" "
-    books=" "
     if (each["Type"]=="movie"):
         movies=each["Name"]
     elif(each["Type"]=="music"):
